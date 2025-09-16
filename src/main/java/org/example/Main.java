@@ -4,7 +4,8 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        boolean isPasswordValid =  ValidPassword.isValidPassword("s1em_22e");
-        System.out.println(isPasswordValid);
+        String test = "";
+        String longest = LongestWordInString.findLongestWord(test);
+        System.out.println(longest);
     }
 }
